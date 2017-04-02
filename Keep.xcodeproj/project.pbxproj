@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD3909A71AE749B10053B234 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3909A61AE749B10053B234 /* NavViewController.m */; };
+		FD3909AA1AE7D4A90053B234 /* TaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3909A91AE7D4A90053B234 /* TaskTableViewCell.m */; };
+		FD3909AD1AE7EACE0053B234 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3909AC1AE7EACE0053B234 /* Task.m */; };
+		FD3909B01AE7ECFF0053B234 /* TasksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3909AF1AE7ECFF0053B234 /* TasksModel.m */; };
+		FD3909B31AE80A140053B234 /* UserData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FD3909B21AE80A140053B234 /* UserData.sqlite */; };
+		FD3909B51AE80A860053B234 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3909B41AE80A860053B234 /* libsqlite3.dylib */; };
+		FD3909B81AE80B560053B234 /* AllDoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3909B71AE80B560053B234 /* AllDoneView.m */; };
+		FD3909BB1AE81A3A0053B234 /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3909BA1AE81A3A0053B234 /* AddTaskViewController.m */; };
+		FD3909C11AE828140053B234 /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3909C01AE828140053B234 /* NotesViewController.m */; };
+		FD3909C71AE9A0160053B234 /* TagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3909C61AE9A0160053B234 /* TagsViewController.m */; };
+		FD390A031AE9D58A0053B234 /* PDTSimpleCalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3909FC1AE9D5890053B234 /* PDTSimpleCalendarViewCell.m */; };
+		FD390A041AE9D58A0053B234 /* PDTSimpleCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3909FE1AE9D5890053B234 /* PDTSimpleCalendarViewController.m */; };
+		FD390A051AE9D58A0053B234 /* PDTSimpleCalendarViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD390A001AE9D58A0053B234 /* PDTSimpleCalendarViewFlowLayout.m */; };
+		FD390A061AE9D58A0053B234 /* PDTSimpleCalendarViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FD390A021AE9D58A0053B234 /* PDTSimpleCalendarViewHeader.m */; };
+		FD390A0A1AE9DD730053B234 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD390A091AE9DD730053B234 /* DatePickerViewController.m */; };
+		FD390A0D1AE9ED5B0053B234 /* EditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD390A0C1AE9ED5B0053B234 /* EditTaskViewController.m */; };
+		FD390A111AEA7D3C0053B234 /* CompletedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD390A101AEA7D3C0053B234 /* CompletedViewController.m */; };
+		FD390A1A1AEC21CB0053B234 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD390A191AEC21CB0053B234 /* NotificationCenter.framework */; };
+		FD390A201AEC21CC0053B234 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD390A1F1AEC21CC0053B234 /* TodayViewController.m */; };
+		FD390A221AEC21CD0053B234 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD390A211AEC21CD0053B234 /* MainInterface.storyboard */; };
+		FD390A251AEC21CD0053B234 /* Tasks.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FD390A171AEC21CB0053B234 /* Tasks.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FD72E32A1AE73C1700AE650A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD72E3291AE73C1700AE650A /* main.m */; };
+		FD72E32D1AE73C1700AE650A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD72E32C1AE73C1700AE650A /* AppDelegate.m */; };
+		FD72E3301AE73C1700AE650A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD72E32F1AE73C1700AE650A /* ViewController.m */; };
+		FD72E3331AE73C1700AE650A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD72E3311AE73C1700AE650A /* Main.storyboard */; };
+		FD72E3351AE73C1700AE650A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD72E3341AE73C1700AE650A /* Images.xcassets */; };
+		FD72E3381AE73C1700AE650A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD72E3361AE73C1700AE650A /* LaunchScreen.xib */; };
+		FD72E3441AE73C1700AE650A /* KeepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD72E3431AE73C1700AE650A /* KeepTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD390A231AEC21CD0053B234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD72E31C1AE73C1500AE650A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD390A161AEC21CB0053B234;
+			remoteInfo = Tasks;
+		};
+		FD72E33E1AE73C1700AE650A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD72E31C1AE73C1500AE650A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD72E3231AE73C1500AE650A;
+			remoteInfo = Keep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD390A291AEC21CD0053B234 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FD390A251AEC21CD0053B234 /* Tasks.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FD3909A51AE749B10053B234 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		FD3909A61AE749B10053B234 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		FD3909A81AE7D4A90053B234 /* TaskTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskTableViewCell.h; sourceTree = "<group>"; };
+		FD3909A91AE7D4A90053B234 /* TaskTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewCell.m; sourceTree = "<group>"; };
+		FD3909AB1AE7EACE0053B234 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		FD3909AC1AE7EACE0053B234 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		FD3909AE1AE7ECFF0053B234 /* TasksModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksModel.h; sourceTree = "<group>"; };
+		FD3909AF1AE7ECFF0053B234 /* TasksModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksModel.m; sourceTree = "<group>"; };
+		FD3909B11AE801A60053B234 /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		FD3909B21AE80A140053B234 /* UserData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = UserData.sqlite; sourceTree = "<group>"; };
+		FD3909B41AE80A860053B234 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FD3909B61AE80B560053B234 /* AllDoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllDoneView.h; sourceTree = "<group>"; };
+		FD3909B71AE80B560053B234 /* AllDoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllDoneView.m; sourceTree = "<group>"; };
+		FD3909B91AE81A3A0053B234 /* AddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		FD3909BA1AE81A3A0053B234 /* AddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		FD3909BF1AE828140053B234 /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
+		FD3909C01AE828140053B234 /* NotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesViewController.m; sourceTree = "<group>"; };
+		FD3909C51AE9A0160053B234 /* TagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsViewController.h; sourceTree = "<group>"; };
+		FD3909C61AE9A0160053B234 /* TagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsViewController.m; sourceTree = "<group>"; };
+		FD3909FB1AE9D5890053B234 /* PDTSimpleCalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendarViewCell.h; sourceTree = "<group>"; };
+		FD3909FC1AE9D5890053B234 /* PDTSimpleCalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewCell.m; sourceTree = "<group>"; };
+		FD3909FD1AE9D5890053B234 /* PDTSimpleCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendarViewController.h; sourceTree = "<group>"; };
+		FD3909FE1AE9D5890053B234 /* PDTSimpleCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewController.m; sourceTree = "<group>"; };
+		FD3909FF1AE9D58A0053B234 /* PDTSimpleCalendarViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendarViewFlowLayout.h; sourceTree = "<group>"; };
+		FD390A001AE9D58A0053B234 /* PDTSimpleCalendarViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewFlowLayout.m; sourceTree = "<group>"; };
+		FD390A011AE9D58A0053B234 /* PDTSimpleCalendarViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendarViewHeader.h; sourceTree = "<group>"; };
+		FD390A021AE9D58A0053B234 /* PDTSimpleCalendarViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewHeader.m; sourceTree = "<group>"; };
+		FD390A081AE9DD730053B234 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		FD390A091AE9DD730053B234 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		FD390A0B1AE9ED5B0053B234 /* EditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTaskViewController.h; sourceTree = "<group>"; };
+		FD390A0C1AE9ED5B0053B234 /* EditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTaskViewController.m; sourceTree = "<group>"; };
+		FD390A0F1AEA7D3C0053B234 /* CompletedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompletedViewController.h; sourceTree = "<group>"; };
+		FD390A101AEA7D3C0053B234 /* CompletedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompletedViewController.m; sourceTree = "<group>"; };
+		FD390A171AEC21CB0053B234 /* Tasks.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Tasks.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD390A191AEC21CB0053B234 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		FD390A1D1AEC21CB0053B234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD390A1E1AEC21CC0053B234 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		FD390A1F1AEC21CC0053B234 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		FD390A211AEC21CD0053B234 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		FD72E3241AE73C1600AE650A /* Keep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD72E3281AE73C1700AE650A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD72E3291AE73C1700AE650A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD72E32B1AE73C1700AE650A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD72E32C1AE73C1700AE650A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD72E32E1AE73C1700AE650A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD72E32F1AE73C1700AE650A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD72E3321AE73C1700AE650A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD72E3341AE73C1700AE650A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD72E3371AE73C1700AE650A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD72E33D1AE73C1700AE650A /* KeepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD72E3421AE73C1700AE650A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD72E3431AE73C1700AE650A /* KeepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD390A141AEC21CB0053B234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD390A1A1AEC21CB0053B234 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD72E3211AE73C1500AE650A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3909B51AE80A860053B234 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD72E33A1AE73C1700AE650A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD3909C81AE9A0280053B234 /* Task Managing */ = {
+			isa = PBXGroup;
+			children = (
+				FD3909B91AE81A3A0053B234 /* AddTaskViewController.h */,
+				FD3909BA1AE81A3A0053B234 /* AddTaskViewController.m */,
+				FD390A0B1AE9ED5B0053B234 /* EditTaskViewController.h */,
+				FD390A0C1AE9ED5B0053B234 /* EditTaskViewController.m */,
+				FD3909BF1AE828140053B234 /* NotesViewController.h */,
+				FD3909C01AE828140053B234 /* NotesViewController.m */,
+				FD3909C51AE9A0160053B234 /* TagsViewController.h */,
+				FD3909C61AE9A0160053B234 /* TagsViewController.m */,
+				FD390A081AE9DD730053B234 /* DatePickerViewController.h */,
+				FD390A091AE9DD730053B234 /* DatePickerViewController.m */,
+			);
+			name = "Task Managing";
+			sourceTree = "<group>";
+		};
+		FD3909C91AE9A0390053B234 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD72E32E1AE73C1700AE650A /* ViewController.h */,
+				FD72E32F1AE73C1700AE650A /* ViewController.m */,
+				FD390A0F1AEA7D3C0053B234 /* CompletedViewController.h */,
+				FD390A101AEA7D3C0053B234 /* CompletedViewController.m */,
+				FD3909A51AE749B10053B234 /* NavViewController.h */,
+				FD3909A61AE749B10053B234 /* NavViewController.m */,
+			);
+			name = "Main Views";
+			sourceTree = "<group>";
+		};
+		FD3909CA1AE9A05E0053B234 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD3909A81AE7D4A90053B234 /* TaskTableViewCell.h */,
+				FD3909A91AE7D4A90053B234 /* TaskTableViewCell.m */,
+				FD3909B61AE80B560053B234 /* AllDoneView.h */,
+				FD3909B71AE80B560053B234 /* AllDoneView.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		FD3909CB1AE9A06D0053B234 /* Data Storage */ = {
+			isa = PBXGroup;
+			children = (
+				FD3909AB1AE7EACE0053B234 /* Task.h */,
+				FD3909AC1AE7EACE0053B234 /* Task.m */,
+				FD3909AE1AE7ECFF0053B234 /* TasksModel.h */,
+				FD3909AF1AE7ECFF0053B234 /* TasksModel.m */,
+			);
+			name = "Data Storage";
+			sourceTree = "<group>";
+		};
+		FD390A071AE9D58E0053B234 /* PDTSimpleCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				FD3909FB1AE9D5890053B234 /* PDTSimpleCalendarViewCell.h */,
+				FD3909FC1AE9D5890053B234 /* PDTSimpleCalendarViewCell.m */,
+				FD3909FD1AE9D5890053B234 /* PDTSimpleCalendarViewController.h */,
+				FD3909FE1AE9D5890053B234 /* PDTSimpleCalendarViewController.m */,
+				FD3909FF1AE9D58A0053B234 /* PDTSimpleCalendarViewFlowLayout.h */,
+				FD390A001AE9D58A0053B234 /* PDTSimpleCalendarViewFlowLayout.m */,
+				FD390A011AE9D58A0053B234 /* PDTSimpleCalendarViewHeader.h */,
+				FD390A021AE9D58A0053B234 /* PDTSimpleCalendarViewHeader.m */,
+			);
+			name = PDTSimpleCalendar;
+			sourceTree = "<group>";
+		};
+		FD390A181AEC21CB0053B234 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD3909B41AE80A860053B234 /* libsqlite3.dylib */,
+				FD390A191AEC21CB0053B234 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD390A1B1AEC21CB0053B234 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				FD390A1E1AEC21CC0053B234 /* TodayViewController.h */,
+				FD390A1F1AEC21CC0053B234 /* TodayViewController.m */,
+				FD390A211AEC21CD0053B234 /* MainInterface.storyboard */,
+				FD390A1C1AEC21CB0053B234 /* Supporting Files */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		FD390A1C1AEC21CB0053B234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD390A1D1AEC21CB0053B234 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD72E31B1AE73C1500AE650A = {
+			isa = PBXGroup;
+			children = (
+				FD72E3261AE73C1600AE650A /* Keep */,
+				FD72E3401AE73C1700AE650A /* KeepTests */,
+				FD390A1B1AEC21CB0053B234 /* Tasks */,
+				FD390A181AEC21CB0053B234 /* Frameworks */,
+				FD72E3251AE73C1600AE650A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD72E3251AE73C1600AE650A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD72E3241AE73C1600AE650A /* Keep.app */,
+				FD72E33D1AE73C1700AE650A /* KeepTests.xctest */,
+				FD390A171AEC21CB0053B234 /* Tasks.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD72E3261AE73C1600AE650A /* Keep */ = {
+			isa = PBXGroup;
+			children = (
+				FD72E32B1AE73C1700AE650A /* AppDelegate.h */,
+				FD72E32C1AE73C1700AE650A /* AppDelegate.m */,
+				FD3909C91AE9A0390053B234 /* Main Views */,
+				FD3909C81AE9A0280053B234 /* Task Managing */,
+				FD390A071AE9D58E0053B234 /* PDTSimpleCalendar */,
+				FD3909CA1AE9A05E0053B234 /* Custom Views */,
+				FD3909CB1AE9A06D0053B234 /* Data Storage */,
+				FD72E3311AE73C1700AE650A /* Main.storyboard */,
+				FD72E3341AE73C1700AE650A /* Images.xcassets */,
+				FD72E3361AE73C1700AE650A /* LaunchScreen.xib */,
+				FD72E3271AE73C1700AE650A /* Supporting Files */,
+			);
+			path = Keep;
+			sourceTree = "<group>";
+		};
+		FD72E3271AE73C1700AE650A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD3909B11AE801A60053B234 /* defines.h */,
+				FD3909B21AE80A140053B234 /* UserData.sqlite */,
+				FD72E3281AE73C1700AE650A /* Info.plist */,
+				FD72E3291AE73C1700AE650A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD72E3401AE73C1700AE650A /* KeepTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD72E3431AE73C1700AE650A /* KeepTests.m */,
+				FD72E3411AE73C1700AE650A /* Supporting Files */,
+			);
+			path = KeepTests;
+			sourceTree = "<group>";
+		};
+		FD72E3411AE73C1700AE650A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD72E3421AE73C1700AE650A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD390A161AEC21CB0053B234 /* Tasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD390A261AEC21CD0053B234 /* Build configuration list for PBXNativeTarget "Tasks" */;
+			buildPhases = (
+				FD390A131AEC21CB0053B234 /* Sources */,
+				FD390A141AEC21CB0053B234 /* Frameworks */,
+				FD390A151AEC21CB0053B234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tasks;
+			productName = Tasks;
+			productReference = FD390A171AEC21CB0053B234 /* Tasks.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FD72E3231AE73C1500AE650A /* Keep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD72E3471AE73C1700AE650A /* Build configuration list for PBXNativeTarget "Keep" */;
+			buildPhases = (
+				FD72E3201AE73C1500AE650A /* Sources */,
+				FD72E3211AE73C1500AE650A /* Frameworks */,
+				FD72E3221AE73C1500AE650A /* Resources */,
+				FD390A0E1AEA7ADF0053B234 /* ShellScript */,
+				FD390A291AEC21CD0053B234 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD390A241AEC21CD0053B234 /* PBXTargetDependency */,
+			);
+			name = Keep;
+			productName = Keep;
+			productReference = FD72E3241AE73C1600AE650A /* Keep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD72E33C1AE73C1700AE650A /* KeepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD72E34A1AE73C1700AE650A /* Build configuration list for PBXNativeTarget "KeepTests" */;
+			buildPhases = (
+				FD72E3391AE73C1700AE650A /* Sources */,
+				FD72E33A1AE73C1700AE650A /* Frameworks */,
+				FD72E33B1AE73C1700AE650A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD72E33F1AE73C1700AE650A /* PBXTargetDependency */,
+			);
+			name = KeepTests;
+			productName = KeepTests;
+			productReference = FD72E33D1AE73C1700AE650A /* KeepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD72E31C1AE73C1500AE650A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Drew Dunne";
+				TargetAttributes = {
+					FD390A161AEC21CB0053B234 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = F9THZS828N;
+					};
+					FD72E3231AE73C1500AE650A = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = F9THZS828N;
+					};
+					FD72E33C1AE73C1700AE650A = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FD72E3231AE73C1500AE650A;
+					};
+				};
+			};
+			buildConfigurationList = FD72E31F1AE73C1500AE650A /* Build configuration list for PBXProject "Keep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD72E31B1AE73C1500AE650A;
+			productRefGroup = FD72E3251AE73C1600AE650A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD72E3231AE73C1500AE650A /* Keep */,
+				FD72E33C1AE73C1700AE650A /* KeepTests */,
+				FD390A161AEC21CB0053B234 /* Tasks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD390A151AEC21CB0053B234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD390A221AEC21CD0053B234 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD72E3221AE73C1500AE650A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3909B31AE80A140053B234 /* UserData.sqlite in Resources */,
+				FD72E3331AE73C1700AE650A /* Main.storyboard in Resources */,
+				FD72E3381AE73C1700AE650A /* LaunchScreen.xib in Resources */,
+				FD72E3351AE73C1700AE650A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD72E33B1AE73C1700AE650A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FD390A0E1AEA7ADF0053B234 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD390A131AEC21CB0053B234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD390A201AEC21CC0053B234 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD72E3201AE73C1500AE650A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD390A0A1AE9DD730053B234 /* DatePickerViewController.m in Sources */,
+				FD72E3301AE73C1700AE650A /* ViewController.m in Sources */,
+				FD390A051AE9D58A0053B234 /* PDTSimpleCalendarViewFlowLayout.m in Sources */,
+				FD3909C11AE828140053B234 /* NotesViewController.m in Sources */,
+				FD390A111AEA7D3C0053B234 /* CompletedViewController.m in Sources */,
+				FD72E32D1AE73C1700AE650A /* AppDelegate.m in Sources */,
+				FD3909C71AE9A0160053B234 /* TagsViewController.m in Sources */,
+				FD3909B81AE80B560053B234 /* AllDoneView.m in Sources */,
+				FD3909AA1AE7D4A90053B234 /* TaskTableViewCell.m in Sources */,
+				FD3909A71AE749B10053B234 /* NavViewController.m in Sources */,
+				FD390A061AE9D58A0053B234 /* PDTSimpleCalendarViewHeader.m in Sources */,
+				FD3909B01AE7ECFF0053B234 /* TasksModel.m in Sources */,
+				FD3909AD1AE7EACE0053B234 /* Task.m in Sources */,
+				FD3909BB1AE81A3A0053B234 /* AddTaskViewController.m in Sources */,
+				FD390A041AE9D58A0053B234 /* PDTSimpleCalendarViewController.m in Sources */,
+				FD390A0D1AE9ED5B0053B234 /* EditTaskViewController.m in Sources */,
+				FD72E32A1AE73C1700AE650A /* main.m in Sources */,
+				FD390A031AE9D58A0053B234 /* PDTSimpleCalendarViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD72E3391AE73C1700AE650A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD72E3441AE73C1700AE650A /* KeepTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD390A241AEC21CD0053B234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD390A161AEC21CB0053B234 /* Tasks */;
+			targetProxy = FD390A231AEC21CD0053B234 /* PBXContainerItemProxy */;
+		};
+		FD72E33F1AE73C1700AE650A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD72E3231AE73C1500AE650A /* Keep */;
+			targetProxy = FD72E33E1AE73C1700AE650A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD72E3311AE73C1700AE650A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD72E3321AE73C1700AE650A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD72E3361AE73C1700AE650A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD72E3371AE73C1700AE650A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD390A271AEC21CD0053B234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tasks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drewsdunne.Keep.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD390A281AEC21CD0053B234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Tasks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drewsdunne.Keep.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FD72E3451AE73C1700AE650A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD72E3461AE73C1700AE650A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD72E3481AE73C1700AE650A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Keep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drewsdunne.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FD72E3491AE73C1700AE650A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Keep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drewsdunne.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FD72E34B1AE73C1700AE650A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drewsdunne.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keep.app/Keep";
+			};
+			name = Debug;
+		};
+		FD72E34C1AE73C1700AE650A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drewsdunne.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keep.app/Keep";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD390A261AEC21CD0053B234 /* Build configuration list for PBXNativeTarget "Tasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD390A271AEC21CD0053B234 /* Debug */,
+				FD390A281AEC21CD0053B234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD72E31F1AE73C1500AE650A /* Build configuration list for PBXProject "Keep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD72E3451AE73C1700AE650A /* Debug */,
+				FD72E3461AE73C1700AE650A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD72E3471AE73C1700AE650A /* Build configuration list for PBXNativeTarget "Keep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD72E3481AE73C1700AE650A /* Debug */,
+				FD72E3491AE73C1700AE650A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD72E34A1AE73C1700AE650A /* Build configuration list for PBXNativeTarget "KeepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD72E34B1AE73C1700AE650A /* Debug */,
+				FD72E34C1AE73C1700AE650A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD72E31C1AE73C1500AE650A /* Project object */;
+}
